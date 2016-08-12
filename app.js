@@ -3,6 +3,10 @@ var app = express()
 
 app.set('port', (process.env.PORT || 3000))
 
+// Public Dir
+app.use(express.static(__dirname + '/public'))
+
+// Express Configs
 app.set('view engine', 'ejs')
 
 app.get('/', function(req, res) {
