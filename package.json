@@ -1,16 +1,21 @@
 {
   "name": "jce",
   "version": "1.0.0",
-  "description": "",
+  "homepage": "jceldridge.com",
+  "description": "Portfolio",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "author": "",
+  "author": "James Eldridge",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.1",
     "express": "^4.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpeps/jce.git"
   }
 }
